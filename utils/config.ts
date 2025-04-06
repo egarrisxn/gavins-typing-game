@@ -2,8 +2,8 @@ import { siteUrl } from "./env";
 import type { SiteConfig } from "./types";
 
 export const siteConfig: SiteConfig = {
-  title: "XO Typing",
-  description: "Typing Game.",
+  title: "Tiny Type Test",
+  description: "An easy-to-use typing game.",
   url: siteUrl,
   ogImage: `${siteUrl}/opengraph-image.png`,
   twitterImage: `${siteUrl}/twitter-image.png`,

@@ -1,28 +1,24 @@
-# **XO Typing*
+# **Tiny Type Game**
 
-![opengraph-image](https://github.com/user-attachments/assets/a49fec98-b71b-4f67-8dbd-9c77156effb0)
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/xotyping) ![GitHub last commit](https://img.shields.io/github/last-commit/egarrisxn/xotyping)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/tiny-type-test) ![GitHub last commit](https://img.shields.io/github/last-commit/egarrisxn/tiny-type-test)
 
 ## **Overview**
 
-This is an easy-to-use [Next.js](https://nextjs.org) typing game [Ethan G.](https://egxo.dev).
+This is an easy-to-use [Next.js](https://nextjs.org) typing game.
 
 ## **Technologies**
-
-This app leverages a modern tech stack for a smooth developer experience:
 
 - **Programming Language**: [TypeScript](https://www.typescriptlang.org/) – Ensures type safety and better maintainability.
 - **Framework**: [Next.js](https://nextjs.org/) – The leading React framework for hybrid static & server-side rendering.
 - **Deployment**: [Vercel](https://vercel.com) – Optimized for seamless, serverless deployment.
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS for rapid styling.
-- **Linting & Formatting**:
-  - [ESLint](https://eslint.org/) – Enforces code quality and best practices.
-  - [Prettier](https://prettier.io/) – Automatic code formatting for consistency.
 - **UI Components**: [shadcn/ui](https://ui.shadcn.com/) – A flexible, customizable UI component library.
 - **Animations**: [Motion](https://motion.dev) – Powerful animations with an intuitive API.
 - **Icons**: [lucide-react](https://lucide.dev/) – Crisp, open-source React icons.
 - **More**: TBD (Feel free to extend and customize based on your needs).
+- **Linting & Formatting**:
+  - [ESLint](https://eslint.org/) – Enforces code quality and best practices.
+  - [Prettier](https://prettier.io/) – Automatic code formatting for consistency.
 
 ## **Before You Begin**
 
@@ -58,8 +54,8 @@ Now you're ready to start building! 🚀
 First, clone the repository onto your local machine:
 
 ```bash
-git clone https://github.com/egarrisxn/xotyping.git xotyping
-cd xotyping
+git clone https://github.com/egarrisxn/tiny-type-test.git tiny-type-test
+cd tiny-type-test
 ```
 
 #### 2. Install Dependencies
@@ -90,7 +86,7 @@ For a seamless deployment experience, use the **Deploy** button below to launch 
 
 Note: You are not limited to Vercel and may deploy this app on any platform that supports Next.js. However, in my experience, Vercel provides the fastest and most convenient setup.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fegarrisxn%2Fxotyping)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fegarrisxn%2Ftiny-type-test)
 
 ## **Learn More**
 

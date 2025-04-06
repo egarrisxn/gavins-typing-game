@@ -2,24 +2,24 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "XO Typing",
-    short_name: "XO",
-    description: "Typing Game.",
+    name: "Tiny Type Test",
+    short_name: "3T",
+    description: "An easy-to-use typing game.",
     id: "/",
     start_url: "/",
-    theme_color: "#000000",
-    background_color: "#000000",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
     orientation: "any",
     display: "standalone",
     icons: [
       {
-        src: "/icons/icons-192.png",
+        src: "/icons/icon-192.png",
         sizes: "192x192",
         type: "image/png",
         purpose: "any",
       },
       {
-        src: "/icons/icons-192.png",
+        src: "/icons/icon-192.png",
         sizes: "192x192",
         type: "image/png",
         purpose: "maskable",
