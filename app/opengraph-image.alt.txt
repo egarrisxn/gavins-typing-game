@@ -1,1 +1,1 @@
-XO Palette: Color Generator
+Tiny Type Test: An easy-to-use typing game.
