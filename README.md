@@ -2,6 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/tiny-type-test) ![GitHub last commit](https://img.shields.io/github/last-commit/egarrisxn/tiny-type-test)
 
+![tiny-type-test](https://github.com/user-attachments/assets/fa9c04f8-18a5-4751-8cb4-16cf6001330a)
+
 ## **Overview**
 
 This is an easy-to-use [Next.js](https://nextjs.org) typing game.
