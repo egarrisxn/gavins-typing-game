@@ -198,7 +198,6 @@ export default function Typing({ quotes }: { quotes: string[] }) {
         <div className="mt-16 flex gap-4">
           <Button
             onClick={resetGame}
-            variant="ghost"
             className="text-muted-foreground text-sm tracking-wider uppercase"
           >
             sStart Over
@@ -262,7 +261,6 @@ export default function Typing({ quotes }: { quotes: string[] }) {
 
       <Button
         onClick={resetGame}
-        variant="ghost"
         size="sm"
         className="mt-2 text-xs tracking-wider uppercase"
       >

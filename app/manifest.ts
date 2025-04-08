@@ -2,13 +2,13 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Tiny Type Test",
+    name: "Tiny.Type.Test",
     short_name: "3T",
     description: "An easy-to-use typing game.",
     id: "/",
     start_url: "/",
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
+    theme_color: "#ffffff",
+    background_color: "#ffffff",
     orientation: "any",
     display: "standalone",
     icons: [
