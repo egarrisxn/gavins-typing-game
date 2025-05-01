@@ -6,7 +6,7 @@
 
 ## **Overview**
 
-This is an easy-to-use [Next.js](https://nextjs.org) typing game.
+This is an easy-to-use [Next.js](https://nextjs.org) typing game & was inspired by work from the v0 community.
 
 ## **Technologies**
 
