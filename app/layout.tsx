@@ -46,19 +46,6 @@ export const metadata: Metadata = {
     creator: siteConfig.socialHandle,
     site: siteConfig.socialHandle,
   },
-  appleWebApp: {
-    capable: true,
-    title: siteConfig.title,
-    startupImage: siteConfig.ogImage,
-    statusBarStyle: "black-translucent",
-  },
-  formatDetection: {
-    telephone: true,
-    date: true,
-    address: true,
-    email: true,
-    url: true,
-  },
 };
 
 export const viewport: Viewport = {

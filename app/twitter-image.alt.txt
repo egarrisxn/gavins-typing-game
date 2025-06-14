@@ -1,1 +1,1 @@
-Tiny Type Test: An easy-to-use typing game.
+Gavin's Typing Game
