@@ -88,8 +88,8 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-            {children}
-            <SonnerToaster richColors closeButton position="bottom-right" />
+          {children}
+          <SonnerToaster richColors closeButton position="bottom-right" />
         </ThemeProvider>
       </body>
     </html>

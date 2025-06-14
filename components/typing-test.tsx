@@ -200,7 +200,7 @@ export default function Typing({ quotes }: { quotes: string[] }) {
             onClick={resetGame}
             className="text-muted-foreground text-sm tracking-wider uppercase"
           >
-            sStart Over
+            Start Over
           </Button>
         </div>
       </div>
@@ -259,11 +259,7 @@ export default function Typing({ quotes }: { quotes: string[] }) {
         )}
       </div>
 
-      <Button
-        onClick={resetGame}
-        size="sm"
-        className="mt-2 text-xs tracking-wider uppercase"
-      >
+      <Button onClick={resetGame} size="sm" className="mt-2 text-xs tracking-wider uppercase">
         Reset
       </Button>
     </div>

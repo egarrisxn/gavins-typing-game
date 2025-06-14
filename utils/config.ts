@@ -2,7 +2,7 @@ import { siteUrl } from "./env";
 import type { SiteConfig } from "./types";
 
 export const siteConfig: SiteConfig = {
-  title: "Tiny.Type.Test",
+  title: "GTG | Gavin's Typing Game",
   description: "An easy-to-use typing game.",
   url: siteUrl,
   ogImage: `${siteUrl}/opengraph-image.png`,
