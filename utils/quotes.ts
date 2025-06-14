@@ -18,4 +18,6 @@ export const quotes = [
   "Curiosity is the engine of every great story. It's what pushes us forward, even when we should turn back. But curiosity is also dangerous. It whispers that you're safe, that you're in control, right up until the moment it leads you somewhere you can't escape from. The fire it lights is mesmerizing until it consumes everything, including the hand that sparked it.",
 
   "You can see someone's face for years and never know them. But open the pages of their life, and the truth spills out in ink. Heaven's Door doesn't lie. Every shameful thought, every fleeting cruelty, every act of quiet kindness it's all there. People hide so much from the world. But their hearts, once revealed, are louder than any scream.",
+
+  "This is an extra one. This one is for fun. This one is the one that should make you run run run run. Run for the hills. Run for your life. Run all the way till your legs fall off. Now type some funny things. Funny things like: Poo poo pee pee and skibidi toilet and things about cappin and other things. Okay. You have had enough. Goodbye.",
 ];
