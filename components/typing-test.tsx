@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -187,15 +188,26 @@ export default function Typing({ quotes }: { quotes: string[] }) {
 
   if (isFinished) {
     return (
-      <div className="flex h-[70vh] w-full flex-col items-center justify-center">
-        <div className="flex flex-col items-center gap-0 text-left">
+      <div className="flex h-[80vh] w-full flex-col items-center justify-center">
+        <div className="mb-8 flex flex-col gap-4 text-center">
+          <p className="text-lg">{`"Good Game, Kid"`}</p>
+          <Image
+            src="/book-icon.png"
+            alt="book-icon"
+            height={175}
+            width={175}
+            className="rounded-lg shadow-lg"
+          />
+          <p className="text-sm">Here are your stats:</p>
+        </div>
+        <div className="mx-auto flex flex-col items-center">
           <div className="text-muted-foreground text-xl">wpm</div>
           <div className="text-muted-foreground text-7xl font-normal">{wpm}</div>
-          <div className="text-muted-foreground mt-6 text-xl">acc</div>
+          <div className="text-muted-foreground mt-4 text-xl">acc</div>
           <div className="text-muted-foreground text-7xl font-normal">{accuracy}%</div>
         </div>
 
-        <div className="mt-16 flex gap-4">
+        <div className="item-center mx-auto mt-12 flex gap-4">
           <Button
             onClick={resetGame}
             className="text-muted-foreground text-sm tracking-wider uppercase"
