@@ -1,5 +1,5 @@
-import type { SitemapEntry } from "@/utils/types";
-import { siteUrl } from "@/utils/env";
+import { siteUrl } from "@/utils/config";
+import { SitemapEntry } from "@/types";
 
 export default async function sitemap(): Promise<SitemapEntry[]> {
   const staticPages: SitemapEntry[] = [

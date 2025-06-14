@@ -1,6 +1,7 @@
 import Image from "next/image";
 import ThemeToggle from "@/components/theme-toggle";
-import TypingTest from "@/components/typing-test";
+// import TypingTest from "@/components/typing-test";
+import { TypingGame } from "@/components/typing";
 import TimeOfDay from "@/components/time-of-day";
 import { quotes } from "@/utils/quotes";
 
@@ -22,17 +23,21 @@ export default function GamePage() {
         </div>
         <ThemeToggle />
       </nav>
+
       <header className="bg-foreground text-background fixed top-20 z-10 flex w-full flex-row items-center justify-center px-4 py-2 text-center text-xs font-medium md:hidden">
         This game only works on dekstop,
         <br />
         for reasons I think you should understand.
       </header>
-      <main className="grid min-h-screen place-items-center px-4 py-24 md:px-8 lg:px-24">
+
+      <main className="grid min-h-screen place-items-center px-4 pt-32 pb-24 md:px-8 md:pt-16 lg:px-24">
         <div className="mx-auto flex w-full max-w-6xl">
-          <TypingTest quotes={quotes} />
+          <TypingGame quotes={quotes} />
+          {/* <TypingTest quotes={quotes} /> */}
         </div>
       </main>
-      <footer className="bg-background text-foreground fixed bottom-0 z-20 flex w-full items-center justify-end px-4 py-2">
+
+      <footer className="fixed right-4 bottom-2 z-20">
         <TimeOfDay />
       </footer>
     </>

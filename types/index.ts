@@ -19,3 +19,10 @@ export type SitemapEntry = {
   changeFrequency: "always" | "hourly" | "daily" | "weekly" | "monthly" | "yearly" | "never";
   priority?: number;
 };
+
+export type LeaderboardEntry = {
+  name: string;
+  wpm: number;
+  accuracy: number;
+  timestamp: number;
+};

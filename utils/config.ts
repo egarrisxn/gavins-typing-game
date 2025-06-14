@@ -1,5 +1,11 @@
-import { siteUrl } from "./env";
-import type { SiteConfig } from "./types";
+import type { SiteConfig } from "@/types";
+
+export const siteUrl =
+  process.env.NODE_ENV === "development"
+    ? "http://localhost:3000"
+    : (process?.env?.NEXT_PUBLIC_SITE_URL ??
+      process?.env?.NEXT_PUBLIC_VERCEL_URL ??
+      "https://gavins-typing-game.vercel.app");
 
 export const siteConfig: SiteConfig = {
   title: "GTG | Gavin's Typing Game",
