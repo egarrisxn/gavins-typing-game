@@ -189,8 +189,8 @@ export default function Typing({ quotes }: { quotes: string[] }) {
   if (isFinished) {
     return (
       <div className="flex h-[80vh] w-full flex-col items-center justify-center">
-        <div className="mb-8 flex flex-col gap-4 text-center">
-          <p className="text-lg">{`"Good Game, Kid"`}</p>
+        <div className="mb-10 flex flex-col gap-2 text-center">
+          <p className="text-lg">{`"Good game, kid"`}</p>
           <Image
             src="/book-icon.png"
             alt="book-icon"
@@ -198,20 +198,17 @@ export default function Typing({ quotes }: { quotes: string[] }) {
             width={175}
             className="rounded-lg shadow-lg"
           />
-          <p className="text-sm">Here are your stats:</p>
         </div>
         <div className="mx-auto flex flex-col items-center">
-          <div className="text-muted-foreground text-xl">wpm</div>
-          <div className="text-muted-foreground text-7xl font-normal">{wpm}</div>
+          <p className="text-base">Here are your stats:</p>
+          <div className="text-muted-foreground mt-4 text-xl">wpm</div>
+          <div className="text-muted-foreground text-7xl">{wpm}</div>
           <div className="text-muted-foreground mt-4 text-xl">acc</div>
-          <div className="text-muted-foreground text-7xl font-normal">{accuracy}%</div>
+          <div className="text-muted-foreground text-7xl">{accuracy}%</div>
         </div>
 
-        <div className="item-center mx-auto mt-12 flex gap-4">
-          <Button
-            onClick={resetGame}
-            className="text-muted-foreground text-sm tracking-wider uppercase"
-          >
+        <div className="item-center mx-auto mt-12 flex">
+          <Button onClick={resetGame} className="text-sm tracking-wider uppercase">
             Start Over
           </Button>
         </div>
@@ -271,7 +268,7 @@ export default function Typing({ quotes }: { quotes: string[] }) {
         )}
       </div>
 
-      <Button onClick={resetGame} size="sm" className="mt-2 text-xs tracking-wider uppercase">
+      <Button onClick={resetGame} className="mt-2 text-xs tracking-wider uppercase">
         Reset
       </Button>
     </div>

@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { Toaster as SonnerToaster } from "sonner";
 import { siteConfig } from "@/utils/config";
 import { ThemeProvider } from "@/components/theme-provider";
 import "./globals.css";
@@ -26,11 +25,8 @@ export const metadata: Metadata = {
     "typescript",
     "javascript",
     "nextjs",
-    "next15",
     "react",
-    "react19",
     "tailwindCSS",
-    "tailwindv4",
     "shadcnui",
     "eslint",
     "vercel",
@@ -81,7 +77,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} font-mono antialiased`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -89,7 +85,6 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
-          <SonnerToaster richColors closeButton position="bottom-right" />
         </ThemeProvider>
       </body>
     </html>

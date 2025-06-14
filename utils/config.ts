@@ -3,7 +3,7 @@ import type { SiteConfig } from "./types";
 
 export const siteConfig: SiteConfig = {
   title: "GTG | Gavin's Typing Game",
-  description: "An easy-to-use typing game.",
+  description: "Thus Spoke Rohan Kishibe Edition",
   url: siteUrl,
   ogImage: `${siteUrl}/opengraph-image.png`,
   twitterImage: `${siteUrl}/twitter-image.png`,
