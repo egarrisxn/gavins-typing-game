@@ -1,8 +1,6 @@
 export const quotes = [
   "True fear doesn't arrive like thunder. It lingers quietly, in corners of the room you don't look at and in questions you're too afraid to ask. It masquerades as curiosity at first, a gentle nudge to keep exploring. But the deeper you go, the more you realize you were never meant to uncover what lies beneath. By the time you feel it creeping up your spine, it's already too late to run.",
 
-  "People often romanticize the life of an artist thinking it's all brushes and inspiration and brilliance. But they don't see the hours spent staring into nothing, the toll of obsession, or the way truth claws at your mind when you try to translate it into lines and color. Talent is nothing without the willingness to surrender yourself to madness, just to capture a fleeting image that may never be understood.",
-
   "There are things in this world that simply cannot be explained events that shatter logic and stories that sound like dreams but leave real scars. As a manga artist, my duty isn't to solve them or label them as fiction. It's to record them exactly as they happened. Because some truths are too strange to be ignored, and too dangerous to be forgotten.",
 
   "Inspiration is a strange thing. It doesn't always come from beauty, joy, or love. Sometimes, it comes from places you wish you never went. A haunted village, a cursed painting, a woman whose smile was far too wide. The most powerful stories are born not from peace, but from the things that unsettle your soul and linger long after the page is turned.",
