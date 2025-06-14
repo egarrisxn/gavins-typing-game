@@ -1,12 +1,12 @@
-# **Tiny Type Test**
+# **Gavin's Typing Game**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/tiny-type-test) ![GitHub last commit](https://img.shields.io/github/last-commit/egarrisxn/tiny-type-test)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/gavins-typing-game) ![GitHub last commit](https://img.shields.io/github/last-commit/egarrisxn/gavins-typing-game)
 
-![tiny-type-test](https://github.com/user-attachments/assets/fa9c04f8-18a5-4751-8cb4-16cf6001330a)
+![gavins-typing-game](https://github.com/user-attachments/assets/bdbf92ba-4d22-462a-8b66-11bb0f589e78)
 
 ## **Overview**
 
-This is an easy-to-use [Next.js](https://nextjs.org) typing game & was inspired by work from the v0 community.
+This is an easy-to-use [Next.js](https://nextjs.org) typing game.
 
 ## **Technologies**
 
@@ -56,7 +56,7 @@ Now you're ready to start building! 🚀
 First, clone the repository onto your local machine:
 
 ```bash
-git clone https://github.com/egarrisxn/tiny-type-test.git tiny-type-test
+git clone https://github.com/egarrisxn/gavins-typing-game.git
 cd tiny-type-test
 ```
 
@@ -88,7 +88,7 @@ For a seamless deployment experience, use the **Deploy** button below to launch 
 
 Note: You are not limited to Vercel and may deploy this app on any platform that supports Next.js. However, in my experience, Vercel provides the fastest and most convenient setup.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fegarrisxn%2Ftiny-type-test)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fegarrisxn%2Fgavins-typing-game)
 
 ## **Learn More**
 
