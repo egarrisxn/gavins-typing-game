@@ -64,6 +64,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <meta name="apple-mobile-web-app-title" content={siteConfig.title} />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable} font-mono antialiased`}>
         <ThemeProvider
           attribute="class"
