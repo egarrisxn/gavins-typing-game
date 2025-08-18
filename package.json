@@ -4,16 +4,6 @@
   "description": "Thus Spoke Rohan Kishibe Edition",
   "license": "MIT",
   "private": true,
-  "keywords": [
-    "typesctipt",
-    "javascript",
-    "nextjs",
-    "react",
-    "tailwindcss",
-    "shadcnui",
-    "eslint",
-    "vercel"
-  ],
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prebuild": "pnpm run lint",
