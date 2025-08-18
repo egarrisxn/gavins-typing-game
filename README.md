@@ -15,9 +15,7 @@ This is an easy-to-use [Next.js](https://nextjs.org) typing game.
 - **Deployment**: [Vercel](https://vercel.com) – Optimized for seamless, serverless deployment.
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS for rapid styling.
 - **UI Components**: [shadcn/ui](https://ui.shadcn.com/) – A flexible, customizable UI component library.
-- **Animations**: [Motion](https://motion.dev) – Powerful animations with an intuitive API.
 - **Icons**: [lucide-react](https://lucide.dev/) – Crisp, open-source React icons.
-- **More**: TBD (Feel free to extend and customize based on your needs).
 - **Linting & Formatting**:
   - [ESLint](https://eslint.org/) – Enforces code quality and best practices.
   - [Prettier](https://prettier.io/) – Automatic code formatting for consistency.
